@@ -21,4 +21,8 @@ algorithm where the weightage of the votes is not same now.
 Bagging:-stands for bootstrap aggregation.We keep the algorithm same,the difference is that we give different data to each model.Bootstraping means giving different data
 to the different models.Random forest is the special case of bagging where the base models are always the decision trees.
 
-Boosting:-
+Boosting:-We take same ML models.We give the data to the first model and during training it notes down the mistakes.It then gives those mistakes to the next model.So the 
+second model works on its mistakes.So,boosting of data is being taken place.
+It is the most powerful ML algorithm technique.
+
+
