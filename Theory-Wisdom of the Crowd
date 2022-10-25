@@ -1,0 +1,14 @@
+Ensemble means a group of something.In ML,Ensemble learning signifies a collection of multiple ML models.
+
+Wisdom of the crowd:-How the crowd knows more than a single user.
+Core Idea:-
+training+prediction
+We have a collection of ML model or an ensemble learning model.
+We need to make sure that these models are different so that there is variety of field.
+Variety may mean that these models are totally different from each other like one is SVM,other LR,etc.
+Second way is that every model is LR model but while training these models we gave them different data.
+Now a new point came,for which we need to predict.
+The output of our ensemble model will be in favour of that result which will be in majority.This is about classification centric model.
+In regression centric model,either the model will be different or the models will be trained on different data.Using different models,we will get different answers,and 
+the final answer will be the mean of the data set obtained.
+These all were about prediction.For training there are different ways,depending upon what the type of ensemble learning is.
