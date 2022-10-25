@@ -1,0 +1,24 @@
+4 types:-
+1)voting ensemble
+2)bagging 
+    a)random forest
+3)boosting
+    a)Adaboosting
+    b)Gradient boosting
+    c)Xg boost
+4)stacking
+
+Q)Why ensemble??
+=>The base models must be different,so there are different types of ensemble.
+Voting:-Base models have different algorithm.We give the same dataset to three ML models namely SVM,Decision Tree and Linear Regression and train the model.Then I will 
+send the same query point to the three models and calculate the final answer based on classification or regression.
+
+Stacking:-We create a two layer model in which in the first layer say we have three ML models-SVM,LR,DT and in the second layer we have KNN,so the three models+KNN will be
+trained.The input for KNN will be the output of SVM,LR,DT and the result of these three.
+On being trained on the given data,the purpose of the KNN is to assign weightage to the base models.So,we can visualize it as that there is a small change in the voting 
+algorithm where the weightage of the votes is not same now.
+
+Bagging:-stands for bootstrap aggregation.We keep the algorithm same,the difference is that we give different data to each model.Bootstraping means giving different data
+to the different models.Random forest is the special case of bagging where the base models are always the decision trees.
+
+Boosting:-
