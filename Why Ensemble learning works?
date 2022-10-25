@@ -1,0 +1,7 @@
+For Classification:-
+Lets say we have 3 ML models,so,we are having 3 different decision boundaries / plot .What ensemble learning does is that it superimposes each and every boundary into a 
+single plot and then since it is classification,uses the majority count to create a smooth decision boundary for the classification.So,we are removing the noise in the
+decision making of multiple ML models.
+
+For Regression:-
+Same as above.The only difference is that we find the mean.
